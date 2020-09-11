@@ -6,4 +6,4 @@ def key_for_min_value(name_hash)
     x <=> y
     name_hash.first[0]
   end
-  
+end
