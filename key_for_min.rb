@@ -4,6 +4,5 @@
 def key_for_min_value(name_hash)
   name_hash.sort do |x, y|
     x <=> y
-    name_hash.first[0]
-  end
+  end.first[0]
 end
